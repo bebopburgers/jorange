@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jorange</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="https://cdn.onlinewebfonts.com/svg/img_366353.png" />
+        <link rel="stylesheet" href="css/jquery.pagepiling.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <style>
+            @font-face {
+                font-family: CalibreMedium;
+                src: local(CalibreMedium), url(fonts/CalibreMedium.otf);
+            }
+            @font-face {
+                font-family: CalibreLight;
+                src: local(CalibreLight), url(fonts/CalibreLight.otf);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-modal">
+            <div class="modal">
+                <div class='modal-content'>
+                    <ul class="modal-content-list">
+                        <li class="modal-content-list-item" data-menuanchor="about">
+                            <a href="#about" class="close-modal-link">
+                                ABOUT US
+                            </a>
+                        </li>
+                        <li class="modal-content-list-item" data-menuanchor="works">
+                            <a href="#works" class="close-modal-link">
+                                OUR WORKS
+                            </a>
+                        </li>
+                        <li class="modal-content-list-item" data-menuanchor="services">
+                            <a href="#services" class="close-modal-link">
+                                SERVICES
+                            </a>
+                        </li>
+                        <li class="modal-content-list-item" data-menuanchor="jobs">
+                            <a href="#jobs" class="close-modal-link">
+                                JOBS
+                            </a>
+                        </li>
+                        <li class="modal-content-list-item" data-menuanchor="blog">
+                            <a href="#blog" class="close-modal-link">
+                                BLOG
+                            </a>
+                        </li>
+                        <li class="modal-content-list-item" data-menuanchor="contact">
+                            <a href="#contact" class="close-modal-link">
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="social">
+                        <span class="social-item">
+                            <a href="#">Facebook</a>
+                        </span>
+                        /
+                        <span class="social-item">
+                            <a href="#">Instagram</a>
+                        </span>
+                        /
+                        <span class="social-item">
+                            <a href="#">YouTube</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="header">
+            <div id="myMenu" class="container">
+                <div class="row row-align">
+                    <div data-menuanchor="home" class="active col logo-block">
+                        <a href="#home" class="header-item">JO.</a>
+                    </div>
+                    <div data-menuanchor="home" class="active col nav-block">
+                        <button id="open-modal-btn" class="show-modal header-item open-modal">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="burger">
+                        </button>
+                        <button id="close-modal-btn" class="close-modal header-item">
+                            <img src="https://vrboadvocates.com/wp-content/themes/homeaway/assets/images/white-close.png" alt="close">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="pagepiling">
+            <div class="section home-area" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="content-wrapper">
+                                <h1 class="content-title">
+                                    WELCOME TO JORANGE
+                                </h1>
+                                <p class="content-description">
+                                    We help companies and individuals design web and mobile applications
+                                </p>
+                                <a href="#about" class="started-button">
+                                    LET'S GET STARTED
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-info">
+                    <a href="#about" class="more-button">ABOUT US</a>
+                </div>
+            </div>
+            <div class="section about-area" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="about-area-content">
+                                <h1 class="about-area-content-title">Synth polaroid bitters chillwave pickled.</h1>
+                                <p class="about-area-content-description">
+                                    Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage. Chillwave craft beer tote bag stumptown quinoa hashtag. Dreamcatcher locavore iPhone chillwave, occupy trust fund slow-carb distillery art party narwhal. Ennui shabby chic Brooklyn, fanny pack direct trade Tumblr tattooed retro polaroid deep v chia vinyl Austin Tonx food truck. Literally ugh umami, pickled jean shorts Wes Anderson letterpress. Banjo Tonx beard biodiesel narwhal.
+                                </p>
+                                <p class="about-area-content-additional-description">
+                                    Austin Tonx food truck. Literally ugh umami, pickled jean shorts Wes Anderson letterpress. Banjo Tonx beard biodiesel narwhal.
+                                </p>
+                            </div>
+                            <div class="partners">
+                                <div class="partners-row">
+                                    <img class="partners-row-item" src="./images/partner1.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner2.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner3.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner4.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner5.png" alt="partner">
+                                </div>
+                                <div class="partners-row">
+                                    <img class="partners-row-item" src="./images/partner6.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner7.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner8.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner9.png" alt="partner">
+                                    <img class="partners-row-item" src="./images/partner10.png" alt="partner">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-info">
+                    <a href="#works" class="more-button">OUR WORKS</a>
+                </div>
+            </div>
+            <div class="section works-area" id="works">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div id="slider">
+                                <ul>
+                                    <li class="slide">
+                                        <div class="slide-item slide-item-left">
+                                            <div class="slide-item-left-top">
+                                                <div class="img-cont slide-item-left-top-left">
+                                                    <div class="img-cont-wrapper">
+                                                        <img src="images/works1.png" alt="test-image">
+                                                    </div>
+                                                    <a href="./works.html">
+                                                        read
+                                                    </a>
+                                                </div>
+                                                <div class="img-cont slide-item-left-right">
+                                                    <div class="img-cont-wrapper">
+                                                        <img src="images/works2.png" alt="test-image">
+                                                    </div>
+                                                    <a href="./works.html">
+                                                        read
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="img-cont slide-item-left-bottom">
+                                                <div class="img-cont-wrapper">
+                                                    <img src="images/works3.png" alt="test-image">
+                                                </div>
+                                                <a href="./works.html">
+                                                    read
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="img-cont slide-item slide-item-right">
+                                            <div class="img-cont-wrapper">
+                                                <img src="images/works4.png" alt="test-image">
+                                            </div>
+                                            <a href="./works.html">
+                                                read
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="slide">
+                                        <div class="slide-item slide-item-left">
+                                            <div class="slide-item-left-top">
+                                                <div class="img-cont slide-item-left-top-left">
+                                                    <div class="img-cont-wrapper">
+                                                        <img src="images/works1.png" alt="test-image">
+                                                    </div>
+                                                    <a href="./works.html">
+                                                        read
+                                                    </a>
+                                                </div>
+                                                <div class="img-cont slide-item-left-right">
+                                                    <div class="img-cont-wrapper">
+                                                        <img src="images/works2.png" alt="test-image">
+                                                    </div>
+                                                    <a href="./works.html">
+                                                        read
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="img-cont slide-item-left-bottom">
+                                                <div class="img-cont-wrapper">
+                                                    <img src="images/works3.png" alt="test-image">
+                                                </div>
+                                                <a href="./works.html">
+                                                    read
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="img-cont slide-item slide-item-right">
+                                            <div class="img-cont-wrapper">
+                                                <img src="images/works4.png" alt="test-image">
+                                            </div>
+                                            <a href="./works.html">
+                                                read
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="control_prev">prev</a>
+                            <a href="#" class="control_next">next</a>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="mobile-slider">
+                                            <div class="img-cont-wrapper-mobile">
+                                                <a href="./works.html">
+                                                    <img src="https://loogart.com/img/loogart-montreal-mashup.jpg" alt="test-image">
+                                                </a>
+                                            </div>
+                                            <div class="img-cont-wrapper-mobile">
+                                                <a href="./works.html">
+                                                    <img src="https://museumsvictoria.com.au/media/12934/175_mm189994_top-designs-2020_whatson.jpg" alt="test-image">
+                                                </a>
+                                            </div>
+                                            <div class="img-cont-wrapper-mobile">
+                                                <a href="./works.html">
+                                                    <img src="https://pista.co.za/wp-content/uploads/2017/06/Material-design.jpg" alt="test-image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-info">
+                    <a href="#services" class="more-button">SERVICES</a>
+                </div>
+            </div>
+            <div class="section services-area" id="services">
+                <div class="container">
+                    <div class="row additional-aligner-prodicts">
+                        <div class="col">
+                            <h1 class="services-title">What We Do.</h1>
+                        </div>
+                    </div>
+                    <div class="row row-height">
+                        <div class="col">
+                            <ul class="stack-list">
+                                <li class="stack-list-item">Product design</li>
+                                <li class="stack-list-item">Mobile development</li>
+                                <li class="stack-list-item">Web development</li>
+                                <li class="stack-list-item">Other</li>
+                            </ul>
+                        </div>
+                        <div class="col mobile">
+                            <div class="mobile-development mobile-development-android">
+                                <img src="https://images.samsung.com/ru/smartphones/galaxy-s20/camera/images/galaxy-s20_camera_s20plus-spec-gray_s.png" alt="android">
+                                <p>Android development</p>
+                                <a href="#" class="read-more-one">read more</a>
+                            </div>
+                        </div>
+                        <div class="col mobile">
+                            <div class="mobile-development mobile-development-ios">
+                                <img src="http://www.pngall.com/wp-content/uploads/5/iPhone-12-PNG-Image-File.png" alt="android">
+                                <p>iOS development</p>
+                                <a href="#" class="read-more-two">read more</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 read-more">
+                            <div class="mobile-development-read-more">
+                                <h2>Android development.</h2>
+                                <a href="#" class="mobile-read-more-back">< back</a>
+                                <p class="mobile-read-more-description">
+                                    Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage. Chillwave craft beer tote bag stumptown quinoa hashtag. Dreamcatcher locavore iPhone chillwave, occupy trust fund slow-carb distillery art party narwhal. Ennui shabby chic Brooklyn, fanny pack direct trade Tumblr tattooed retro polaroid deep v chia vinyl Austin Tonx food truck. Literally ugh umami, pickled jean shorts Wes Anderson letterpress. Banjo Tonx beard biodiesel narwhal.
+                                </p>
+                                <p class="mobile-read-more-additional-description">
+                                    Austin Tonx food truck. Literally ugh umami, pickled jean shorts Wes Anderson letterpress. Banjo Tonx beard biodiesel narwhal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-info">
+                    <a href="#jobs" class="more-button">JOBS</a>
+                </div>
+            </div>
+            <div class="section jobs-area" id="jobs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-align">
+                            <div class="window">
+                                <div class="sp-panel-set">
+
+                                    <div class="sp-panel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Full-stack (JS/Python) developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Full-stack (JS/Python) developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Design (UX/UI) developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Design (UX/UI) developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Frontend developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Frontend developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Custom Software Development</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Custom Software Development</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Backend developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Backend developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Artificial Intelligence</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Artificial Intelligence</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="sp-panel">
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Full-stack (JS/Python) developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Full-stack (JS/Python) developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Design (UX/UI) developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Design (UX/UI) developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Frontend developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Frontend developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Custom Software Development</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Custom Software Development</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Backend developer</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Backend developer</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./job.html" class="job-description-link">
+                                                    <div class="job-description">
+                                                        <p class="job-description-date">21/05/2020</p>
+                                                        <p class="job-description-name">Artificial Intelligence</p>
+                                                        <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                    </div>
+                                                    <div class="job-description-read-more">
+                                                        <p class="job-description-name">Artificial Intelligence</p>
+                                                        <button>Read more</button>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col col-flex">
+                                            <div class="left">
+                                                prev
+                                            </div>
+                                            <div class="right">
+                                                next
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs-mobile">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="job-description">
+                                                <a href="./job.html">
+                                                    <p class="job-description-date">21/05/2020</p>
+                                                    <p class="job-description-name">Full-stack (JS/Python) developer</p>
+                                                    <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                </a>
+                                            </div>
+                                            <div class="job-description">
+                                                <a href="./job.html">
+                                                    <p class="job-description-date">21/05/2020</p>
+                                                    <p class="job-description-name">Design (UX/UI) developer</p>
+                                                    <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                </a>
+                                            </div>
+                                            <div class="job-description">
+                                                <a href="./job.html">
+                                                    <p class="job-description-date">21/05/2020</p>
+                                                    <p class="job-description-name">Frontend developer</p>
+                                                    <p class="job-description-vacancy">We’re looking for a passionate and experienced Full-stack (JS/Python) developer, who clearly pictures his next challenge in the development of an amazing e-commerce product.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-info">
+                        <a href="#blog" class="more-button">BLOG</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section blog-area" id="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-align">
+                            <div class="window-blog">
+                                <div class="sp-panel-set-blog">
+                                    <div class="sp-panel-blog">
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog1.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">4 min read</p>
+                                                            <p class="blog-info-title">Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is Why</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog2.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">3 min read</p>
+                                                            <p class="blog-info-title">Increase Mobile App User Retention With These Tips</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog3.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">7 min read</p>
+                                                            <p class="blog-info-title">How to Prepare Your Android App for a Pentest – Networking Edition</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog4.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">11 min read</p>
+                                                            <p class="blog-info-title">Snatch Bugs with This Lightweight Bug-Reporting iOS Library</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sp-panel-blog">
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog1.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">4 min read</p>
+                                                            <p class="blog-info-title">Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is Why</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog2.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">3 min read</p>
+                                                            <p class="blog-info-title">Increase Mobile App User Retention With These Tips</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog3.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">7 min read</p>
+                                                            <p class="blog-info-title">How to Prepare Your Android App for a Pentest – Networking Edition</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="./blog.html">
+                                                    <div class="blog-item">
+                                                        <img src="images/blog4.png" alt="blog-img">
+                                                        <div class="blog-info">
+                                                            <p class="blog-info-time">11 min read</p>
+                                                            <p class="blog-info-title">Snatch Bugs with This Lightweight Bug-Reporting iOS Library</p>
+                                                            <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col col-flex">
+                                            <div class="left-blog">
+                                                prev
+                                            </div>
+                                            <div class="right-blog">
+                                                next
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs-mobile">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="./blog.html">
+                                                <div class="blog-item">
+                                                    <img src="images/blog1.png" alt="blog-img">
+                                                    <div class="blog-info">
+                                                        <p class="blog-info-time">4 min read</p>
+                                                        <p class="blog-info-title">Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is Why</p>
+                                                        <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="./blog.html">
+                                                <div class="blog-item">
+                                                    <img src="images/blog2.png" alt="blog-img">
+                                                    <div class="blog-info">
+                                                        <p class="blog-info-time">3 min read</p>
+                                                        <p class="blog-info-title">Increase Mobile App User Retention With These Tips</p>
+                                                        <p class="blog-info-description">Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage.</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-info">
+                        <a href="#contact" class="more-button">CONTACT US</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section contact-area" id="contact">
+                <div class="container">
+                    <div class="row col-align-form">
+                        <div class="col">
+                            <h1 class="contact-title">Do you have any question?</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputAdditionals" placeholder="Tell us about it">
+                                </div>
+                                <div class="form-group">
+                                    <label class="file" for="exampleFormControlFile1">Attach any files you feel would be useful</label>
+                                    <input type="file" hidden class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                                <button type="submit" class="btn btn-primary submit-btn">Let's Chat</button>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 col-md-12 horizontal-aligner">
+                            <p class="or-agency-horizontal">or</p>
+                            <div class="agency-url">
+                                <a href="#">contact@jorange.agency</a>
+                            </div>
+                            <p class="or-agency-vertical">or</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="container">
+                        <div class="row row-top">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="address-info">
+                                    <span class="address-info-phone">+34 675 322 107</span>
+                                    <span class="address-info-street">40 av. Nauky, 61663 Kharkiv, Ukraine</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="social-info">
+                                    <span><a href="#">Facebook</a> / <a href="#">Instagram</a> / <a href="#">YouTube</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-bottom">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="rights">
+                                    <span>© WebSite. All rights reserved</span>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12">
+                                <div class="privacy-policy">
+                                    <a href="#" class="policy-url">Jobs</a>
+                                    <a href="#" class="policy-url privacy-policy-url">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.pagepiling.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

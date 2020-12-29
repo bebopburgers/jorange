@@ -1,0 +1,153 @@
+/*Blog*/
+
+.blog-item {
+  margin-bottom: 36px;
+
+  &-read-information {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    letter-spacing: 0.0714286px;
+    color: #C7C7C7;
+    margin-bottom: 0;
+  }
+
+  &-title {
+    margin-bottom: 4px;
+
+
+    a {
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #000000;
+      @include transition(.3s);
+
+      &:hover {
+        color: #ffa95e;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-excerpt {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px !important;
+    color: #828282 !important;
+    line-height: 24px;
+  }
+}
+
+.single-page {
+  font-size: 17px;
+  color: #828282;
+  font-weight: 300;
+
+  .blog-item-title {
+    font-size: 28px;
+    line-height: 49px;
+    color: #000;
+  }
+
+}
+
+.single-post-thumbnail {
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.related-post {
+  background-color: #F9F9F9;
+  padding: 51px 0;
+}
+
+.blog-item-vertical {
+  background-color: #fff;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.0568728);
+  border-radius: 7px;
+
+  img {
+    border-radius: 7px 7px 0 0;
+  }
+
+  &-info {
+    padding: 15px 35px;
+
+    .blog-item-title {
+      font-size: 19px;
+      line-height: 24px;
+
+      a {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 24px;
+      }
+    }
+
+    .blog-item-excerpt {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
+
+.single-work-meta-list {
+  span {
+    font-size: 16px;
+    color: #c7c7c7;
+    font-weight: normal;
+  }
+
+  b {
+    font-weight: normal;
+    color: #000 !important;
+  }
+}
+
+/*#Blog*/
+
+
+//@media only screen and (max-width: 1400px) {
+//    .blog-item-read-information {
+//        font-size: 16px;
+//        line-height: 19px;
+//    }
+//
+//    .blog-item-title {
+//        font-size: 24px;
+//        line-height: 33px;
+//    }
+//    .blog-item-excerpt {
+//        font-size: 18px;
+//        line-height: 25px;
+//    }
+//}
+
+@media only screen and (max-width: 1240px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  .blog-item {
+    text-align: center;
+  }
+  .blog-item a {
+    display: block;
+  }
+  .blog-item {
+    text-align: center;
+  }
+  .blog-item img {
+    margin-bottom: 20px;
+  }
+
+  .single-page .blog-item-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

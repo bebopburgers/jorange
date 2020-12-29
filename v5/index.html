@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jorange</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn.onlinewebfonts.com/svg/img_366353.png"/>
+    <!--    <link rel="stylesheet" href="css/jquery.pagepiling.css"/>-->
+    <link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css"/>
+    <link rel="stylesheet" href="./app/css/main.css"/>
+    <style>
+
+        @font-face {
+            font-family: Calibre;
+            src: local(CalibreThin), url(fonts/CalibreThin.otf);
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: Calibre;
+            src: local(CalibreLight), url(fonts/CalibreLight.otf);
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: Calibre;
+            src: local(CalibreMedium), url(fonts/CalibreMedium.otf);
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: Calibre;
+            src: local(CalibreRegular), url(fonts/CalibreRegular.otf);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: Calibre;
+            src: local(CalibreSemibold), url(fonts/CalibreSemibold.otf);
+            font-weight: 600;
+            font-style: normal;
+
+        }
+
+        @font-face {
+            font-family: Calibre;
+            src: local(CalibreBold), url(fonts/CalibreBold.otf);
+            font-weight: bold;
+            font-style: normal;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container-modal">
+    <div class="modal">
+        <div class='modal-content'>
+            <ul class="modal-content-list">
+                <li class="modal-content-list-item" data-menuanchor="about">
+                    <a href="#about" class="close-modal-link">
+                        ABOUT US
+                    </a>
+                </li>
+                <li class="modal-content-list-item" data-menuanchor="works">
+                    <a href="#works" class="close-modal-link">
+                        OUR WORKS
+                    </a>
+                </li>
+                <li class="modal-content-list-item" data-menuanchor="services">
+                    <a href="#services" class="close-modal-link">
+                        SERVICES
+                    </a>
+                </li>
+                <li class="modal-content-list-item" data-menuanchor="jobs">
+                    <a href="#jobs" class="close-modal-link">
+                        JOBS
+                    </a>
+                </li>
+                <li class="modal-content-list-item" data-menuanchor="blog">
+                    <a href="#blog" class="close-modal-link">
+                        BLOG
+                    </a>
+                </li>
+                <li class="modal-content-list-item" data-menuanchor="contact">
+                    <a href="#contact" class="close-modal-link">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+            <div class="social">
+                        <span class="social-item">
+                            <a href="#">Facebook</a>
+                        </span>
+                /
+                <span class="social-item">
+                            <a href="#">Instagram</a>
+                        </span>
+                /
+                <span class="social-item">
+                            <a href="#">YouTube</a>
+                        </span>
+            </div>
+        </div>
+    </div>
+</div>
+<span class="fixed-dev-text">
+        DEVELOPMENT service
+    </span>
+<header class="main-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <a class="main-logo" href="/">JO.</a>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span
+                        class="bottom"></span></div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+        <ul>
+            <li><a href="#aboutUsSection">
+                ABOUT UT
+            </a></li>
+            <li><a href="#ourCasesSection">
+                OUR WORKS
+            </a></li>
+            <li><a href="#servicesSection">
+                SERVICES
+            </a></li>
+            <li><a href="#openWorksSection">
+                JOBS
+            </a></li>
+            <li><a href="#blogSection">
+                BLOG
+            </a></li>
+            <li><a href="#contactSection">
+                CONTACT
+            </a></li>
+        </ul>
+    </nav>
+</div>
+<main id="fullpage">
+
+    <div data-anchor="mainScreenSection" id="mainScreen" class="section">
+        <div class="container text-center">
+            <h1 class="main-title">
+                Welcome to JORANGe
+            </h1>
+            <p class="main-subtitle">
+                We help companies and individuals design web and mobile applications
+            </p>
+
+            <a class="btn btn-dark" href="#aboutUsSection">
+                LET’S GET STARTED
+            </a>
+            <a class="next-page-link" href="#aboutUsSection">
+                MORE INFORMATIONS
+            </a>
+        </div>
+    </div>
+
+    <div data-anchor="aboutUsSection" id="aboutUs" class="section">
+        <div class="container about-us-section text-center">
+            <h2 class="secondary-title">
+                Synth polaroid bitters chillwave pickled.
+            </h2>
+            <div class="row">
+                <div class="col-lg-7 mx-auto">
+                    <p>
+                        Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan
+                        organic
+                        occupy, Wes Anderson ugh whatever pour-over gastropub selvage. Chillwave craft beer tote bag
+                        stumptown
+                        quinoa hashtag. Dreamcatcher locavore iPhone chillwave, occupy trust fund slow-carb distillery
+                        art party
+                        narwhal. Ennui shabby chic Brooklyn, fanny pack direct trade Tumblr tattooed retro polaroid deep
+                        v chia
+                        vinyl Austin Tonx food truck. Literally ugh umami, pickled jean shorts Wes Anderson letterpress.
+                        Banjo
+                        Tonx beard biodiesel narwhal.
+                    </p>
+                    <p><b>
+                        Austin Tonx food truck. Literally ugh umami, pickled jean shorts Wes Anderson letterpress. Banjo
+                        Tonx beard biodiesel narwhal.
+                    </b>
+                    </p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto images-wrapper">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img class="img-fluid" src="./images/partner1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="next-page-link" href="#ourCasesSection">
+                Our Works
+            </a>
+        </div>
+    </div>
+
+    <div data-anchor="ourCasesSection" id="ourCases" class="section">
+        <div class="container our-cases-section" id="works">
+            <!--            <div class="row">-->
+            <!--                <div class="col-md-10 mx-auto">-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="grid-wrapper">
+                            <div class="inner-grid">
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="./index-works.html">
+                                        <img class="img-fluid" src="./images/1_1.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="./index-works.html">
+                                        <img class="img-fluid" src="./images/2.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-new-item grid-new-item-big">
+                                <a href="./index-works.html">
+                                    <img class="img-fluid" src="./images/4.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="grid-new-item grid-new-item-md">
+                                <a href="./index-works.html">
+                                    <img class="img-fluid" src="./images/3.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="grid-wrapper">
+                            <div class="inner-grid">
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./images/1_1.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./images/2.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-new-item grid-new-item-big">
+                                <a href="#">
+                                    <img class="img-fluid" src="./images/4.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="grid-new-item grid-new-item-md">
+                                <a href="#">
+                                    <img class="img-fluid" src="./images/3.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="grid-wrapper">
+                            <div class="inner-grid">
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./images/1_1.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./images/2.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-new-item grid-new-item-big">
+                                <a href="#">
+                                    <img class="img-fluid" src="./images/4.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="grid-new-item grid-new-item-md">
+                                <a href="#">
+                                    <img class="img-fluid" src="./images/3.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="grid-wrapper">
+                            <div class="inner-grid">
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./images/1_1.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid-new-item grid-new-item-sm">
+                                    <a href="#">
+                                        <img class="img-fluid" src="./images/2.jpg" alt="">
+                                        <div class="grid-info">
+                                            <i>Patrick Snyder</i>
+                                            <p class="grid-info-title">
+                                                Adobe Creative Fruit Juice
+                                            </p>
+                                            <p class="our-cases-section-read-more read-more">
+                                                read
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid-new-item grid-new-item-big">
+                                <a href="#">
+                                    <img class="img-fluid" src="./images/4.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="grid-new-item grid-new-item-md">
+                                <a href="#">
+                                    <img class="img-fluid" src="./images/3.jpg" alt="">
+                                    <div class="grid-info">
+                                        <i>Patrick Snyder</i>
+                                        <p class="grid-info-title">
+                                            Adobe Creative Fruit Juice
+                                        </p>
+                                        <p class="our-cases-section-read-more read-more">
+                                            read
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">next</div>
+                <div class="swiper-button-prev">prev</div>
+            </div>
+            <!--                </div>-->
+            <!--            </div>-->
+            <a class="next-page-link" href="#servicesSection">
+                services
+            </a>
+        </div>
+    </div>
+
+    <div data-anchor="servicesSection" id="services" class="section">
+        <div class="container services-section">
+            <h2 class="text-center secondary-title">
+                What We Do.
+            </h2>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-xl-4-1">
+                    <div class="nav flex-column nav-services nav-pills" id="v-pills-tab" role="tablist"
+                         aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" data-target="#v-pills-home"
+                           role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <span>
+                                Product design
+                            </span>
+                        </a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile"
+                           role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <span>
+                                Mobile development
+                            </span>
+                        </a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" data-target="#v-pills-messages"
+                           role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                            <span>
+                                Web development
+                            </span>
+                        </a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" data-target="#v-pills-settings"
+                           role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <span>
+                                Other
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-xl-4-2 pl-2 pl-xl-4">
+                    <div class="tab-content tab-content-services" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active w-100" id="v-pills-home" role="tabpanel"
+                             aria-labelledby="v-pills-home-tab">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/android-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            Android <br> development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="/index-services.html"></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/ios-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            iOS <br> development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade w-100" id="v-pills-profile" role="tabpanel"
+                             aria-labelledby="v-pills-profile-tab">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/android-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            Android development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/ios-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            iOS development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade w-100" id="v-pills-messages" role="tabpanel"
+                             aria-labelledby="v-pills-messages-tab">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/android-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            Android development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/ios-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            iOS development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade w-100" id="v-pills-settings" role="tabpanel"
+                             aria-labelledby="v-pills-settings-tab">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/android-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            Android development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+                                    <div class="services-item">
+                                        <img class="img-fluid" src="./images/ios-dev.png" alt="">
+                                        <p class="services-item-title">
+                                            iOS development
+                                            <span class="services-item-title-read-more">
+                                                read more
+                                            </span>
+                                        </p>
+                                        <a class="services-item-cover-link" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="next-page-link" href="#openWorksSection">
+                Jobs
+            </a>
+        </div>
+    </div>
+
+    <div data-anchor="openWorksSection" id="openWorks" class="section">
+        <div class="container open-work-section" id="jobs">
+            <!--            <div class="row">-->
+            <!--                <div class="col-md-10 mx-auto">-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row row-big">
+                            <div class="col-md-6 col-lg-6 col-xl-4-3 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./index-job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4-3 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./index-job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4-3 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./index-job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4-3 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./index-job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4-3 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./index-job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4-3 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./index-job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-4 our-open-work-item-wrapper">
+                                <div class="our-open-work-item">
+                                    <p class="our-open-work-item-date">
+                                        21/05/2020
+                                    </p>
+                                    <h3 class="our-open-work-item-title">
+                                        Full-stack (JS/Python) developer
+                                    </h3>
+                                    <div class="our-open-work-item-description">
+                                        We’re looking for a passionate and experienced Full-stack (JS/Python)
+                                        developer,
+                                        who clearly pictures his next challenge in the development of an amazing
+                                        e-commerce product.
+                                    </div>
+                                    <a class="btn btn-sm btn-dark" href="./job.html">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">next</div>
+                <div class="swiper-button-prev">prev</div>
+            </div>
+            <!--                </div>-->
+            <!--            </div>-->
+            <a class="next-page-link" href="#blogSection">
+                Blog
+            </a>
+        </div>
+    </div>
+
+    <div data-anchor="blogSection" id="blog" class="section">
+        <div class="container blog-section">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-6 blog-item">
+                                <div class="row">
+                                    <div class="col-md-4 col-lg-4 col-xl-6">
+                                        <a href="./index-blog.html">
+                                            <img class="img-fluid" src="images/4-1.jpg" alt="blog-img">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 col-lg-8 col-xl-6 pt-3">
+                                        <p class="blog-item-read-information">
+                                            4 min read
+                                        </p>
+                                        <h2 class="blog-item-title">
+                                            <a href="./index-blog.html">
+                                                Flutter Might Be Your Technology of Choice for Mobile in 2020 – Here Is
+                                                Why
+                                            </a>
+                                        </h2>
+                                        <div class="blog-item-excerpt">
+                                            <p>
+                                                Retro occupy organic, stumptown shabby chic pour-over roof party DIY
+                                                normcore. Actually artisan organic occupy,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">next</div>
+                <div class="swiper-button-prev">prev</div>
+            </div>
+            <a class="next-page-link" href="#contactSection">
+                Contact Us
+            </a>
+        </div>
+    </div>
+
+    <div data-anchor="contactSection" id="contact" class="section">
+        <div class="container contact-section">
+            <h2 class="secondary-title contact-section-title text-center">
+                Do you have any question?
+            </h2>
+            <div class="row">
+                <div class="col-md-11 col-lg-9 mx-auto">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Name <span>*</span></label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">E-mail <span>*</span></label>
+                                    <input type="email" class="form-control" id="exampleInputPassword1"
+                                           placeholder="jorange@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputAdditionals">Tell us about it <span>*</span></label>
+                                    <textarea class="form-control" id="exampleInputAdditionals"
+                                              placeholder="You text....."></textarea>
+                                </div>
+                                <div class="form-group form-group-file">
+                                    <label class="file-contact-form-label file" for="exampleFormControlFile1">
+                                        <span>
+                                            Attach any files you feel would be useful
+                                        </span>
+                                    </label>
+                                    <input type="file" hidden class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                                <button type="submit" class="btn btn-dark w-100 submit-btn">Let's Chat</button>
+                            </form>
+                        </div>
+                        <div class="col-md-1">
+                            <span class="contact-section-divider">or</span>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="contact-section-email-link" href="mailto:contact@jorange.agency">
+                                contact@jorange.agency
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-footer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="contact-form-footer-list">
+                            <li class="contact-form-footer-list-icon icon-phone">
+                                <a href="#">
+                                    +34 675 322 107
+                                </a>
+                            </li>
+                            <li class="contact-form-footer-list-icon  icon-marker">
+                                <a href="#">
+                                    40 av. Nauky, 61663 Kharkiv, Ukraine
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="contact-form-footer-list contact-form-footer-list-social-networks">
+                            <li>
+                                <a href="">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    YouTube
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="contact-form-footer-hr">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="contact-form-footer-copyright">
+                             © WebSite. All rights reserved
+                        </span>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="contact-form-footer-list contact-form-footer-list-menu">
+                            <li>
+                                <a href="#">
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<ul id="my-nav">
+    <li data-menuanchor="mainScreenSection" class="d-none">
+        <a href="#mainScreenSection"></a>
+    </li>
+    <li data-menuanchor="aboutUsSection">
+        <a href="#aboutUsSection">
+            <span class="my-nav-visible">
+                A
+            </span>
+            <span class="my-nav-hidden">
+            About
+            </span>
+        </a>
+    </li>
+    <li data-menuanchor="ourCasesSection">
+        <a href="#ourCasesSection">
+            <span class="my-nav-visible">
+                W
+            </span>
+            <span class="my-nav-hidden">
+            Work
+            </span>
+        </a>
+    </li>
+    <li data-menuanchor="servicesSection">
+        <a href="#servicesSection">
+            <span class="my-nav-visible">
+             S
+            </span>
+            <span class="my-nav-hidden">
+            Services
+            </span>
+        </a>
+    </li>
+    <li data-menuanchor="openWorksSection">
+        <a href="#openWorksSection">
+            <span class="my-nav-visible">
+               J
+            </span>
+            <span class="my-nav-hidden">
+            Jobs
+            </span>
+        </a>
+    </li>
+    <li data-menuanchor="blogSection">
+        <a href="#blogSection">
+            <span class="my-nav-visible">
+                B
+            </span>
+            <span class="my-nav-hidden">
+            Blog
+            </span>
+        </a>
+    </li>
+    <li data-menuanchor="contactSection">
+        <a href="#contactSection">
+            <span class="my-nav-visible">
+                C
+            </span>
+            <span class="my-nav-hidden">
+                Contact Us
+          </span>
+        </a>
+    </li>
+</ul>
+
+<footer class="main-footer">
+    <span class="bg-line-item"></span>
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./app/js/main.js"></script>
+<script src="./app/js/scrolloverflow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+<script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+<script>
+
+
+</script>
+<!--<script src="js/index.js"></script>-->
+</body>
+</html>

@@ -1,0 +1,19 @@
+.single-page .secondary-title {
+    text-transform: none;
+    font-weight: 600;
+}
+
+.row-grid {
+    img:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+.single-grid-gallery {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 0.8fr 1fr 1.5fr;
+    grid-template-columns: 1fr 0.8fr 1fr 1.5fr;
+}

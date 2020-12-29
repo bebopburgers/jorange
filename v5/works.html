@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jorange</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mosaic.min.css" />
+    <style>
+        @font-face {
+            font-family: CalibreMedium;
+            src: local(CalibreMedium), url(fonts/CalibreMedium.otf);
+        }
+        @font-face {
+            font-family: CalibreLight;
+            src: local(CalibreLight), url(fonts/CalibreLight.otf);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-modal">
+        <div class="modal">
+            <div class='modal-content'>
+                <ul class="modal-content-list">
+                    <li class="modal-content-list-item" data-menuanchor="about">
+                        <a href="./index.html#about" class="close-modal-link">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="modal-content-list-item" data-menuanchor="works">
+                        <a href="./index.html#works" class="close-modal-link">
+                            OUR WORKS
+                        </a>
+                    </li>
+                    <li class="modal-content-list-item" data-menuanchor="services">
+                        <a href="./index.html#services" class="close-modal-link">
+                            SERVICES
+                        </a>
+                    </li>
+                    <li class="modal-content-list-item" data-menuanchor="jobs">
+                        <a href="./index.html#jobs">
+                            JOBS
+                        </a>
+                    </li>
+                    <li class="modal-content-list-item" data-menuanchor="contact">
+                        <a href="./index.html#contact" class="close-modal-link">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+                <div class="social">
+                    <span class="social-item">
+                        <a href="#">Facebook</a>
+                    </span>
+                    /
+                    <span class="social-item">
+                        <a href="#">Instagram</a>
+                    </span>
+                    /
+                    <span class="social-item">
+                        <a href="#">YouTube</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="header">
+        <div id="myMenu" class="container">
+            <div class="row row-align">
+                <div data-menuanchor="home" class="active col logo-block">
+                    <a href="./index-new.html#" class="header-item">JO.</a>
+                </div>
+                <div data-menuanchor="home" class="active col nav-block">
+                    <button id="open-modal-btn" class="show-modal header-item open-modal">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="burger">
+                    </button>
+                    <button id="close-modal-btn" class="close-modal header-item">
+                        <img src="https://vrboadvocates.com/wp-content/themes/homeaway/assets/images/white-close.png" alt="close">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="works-single">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="works-single-content">
+                        <a href="./index-new.html#works" class="works-single-content-btn">< back</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <div class="works-single-content-left-wrapper">
+                        <img src="https://loogart.com/img/loogart-montreal-mashup.jpg" alt="image">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="works-single-content-right-wrapper">
+                        <p class="works-single-content-right-wrapper-subtitle">
+                            Product Design
+                        </p>
+                        <p class="works-single-content-right-wrapper-title">
+                            Adobe Creative Fruit Juice
+                        </p>
+                        <p class="works-single-content-right-wrapper-options">Client: <span class="mark-black">Adobe</span> Year: <span class="mark-black">2019</span> Services: <span class="mark-black">Branding, User Interface</span></p>
+                        <p class="works-single-content-right-wrapper-description">
+                            Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats. Whatever Blue Bottle Neutra irony 8-bit. Kogi ethnic ugh fashion axe bicycle rights. Gluten-free Odd Future American Apparel pour-over umami drinking vinegar Truffaut.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <p class="works-single-content-left-wrapper-title">The Challenge</p>
+                    <p class="works-single-content-left-wrapper-description">
+                        Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats. Whatever Blue Bottle Neutra irony 8-bit.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <p class="works-single-content-left-wrapper-title">Our Strategy</p>
+                    <p class="works-single-content-left-wrapper-description">
+                        Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats. Whatever Blue Bottle Neutra irony
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="mosaic-wrapper">
+                        <div id="myMosaic">
+                            <img src="images/ex8.png" width="367" height="550" alt="image" />
+                            <img src="images/ex6.png" width="238" height="432" alt="image"/>
+                            <img src="images/ex3.png" width="370" height="259" alt="image"/>
+                            <img src="images/ex2.png" width="433" height="290" alt="image"/>
+                            <img src="images/ex9.png" width="367" height="226" alt="image"/>
+                            <img src="images/ex4.png" width="370" height="245" alt="image"/>
+                            <img src="images/ex3.png" width="370" height="259" alt="image"/>
+                            <img src="images/ex2.png" width="320" height="200" alt="image"/>
+                            <img src="images/ex1.png" width="320" height="200" alt="image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="team">
+                            <p class="team-title">The Team</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <div class="teammates">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-lg-4">
+                                    <ul class="teammate-list">
+                                        <li class="teammate-title">
+                                            Inspiration:
+                                        </li>
+                                        <li class="teammate">
+                                            Diana Wells
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-12 col-lg-4">
+                                    <ul class="teammate-list">
+                                        <li class="teammate-title">
+                                            Project Manager:
+                                        </li>
+                                        <li class="teammate">
+                                            Nathan Castro
+                                        </li>
+                                    </ul>
+                                    <ul class="teammate-list">
+                                        <li class="teammate-title">
+                                            Lead UI/UX Designers:
+                                        </li>
+                                        <li class="teammate">
+                                            Joe Wilson
+                                        </li>
+                                    </ul>
+                                    <ul class="teammate-list">
+                                        <li class="teammate-title">
+                                            Frontend Development:
+                                        </li>
+                                        <li class="teammate">
+                                            Nancy Bishop
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <ul class="teammate-list">
+                                        <li class="teammate-title">
+                                            Frontend Development:
+                                        </li>
+                                        <li class="teammate">
+                                            Nathan Castro
+                                        </li>
+                                    </ul>
+                                    <ul class="teammate-list">
+                                        <li class="teammate-title">
+                                            Copywriters:
+                                        </li>
+                                        <li class="teammate">
+                                            Joe Wilson
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p class="teammates-description">
+                            Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats. Whatever Blue Bottle Neutra irony 8-bit. Kogi ethnic ugh fashion axe bicycle rights..
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.pagepiling.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.mosaic.min.js"></script>
+    <script>
+        $('#myMosaic').Mosaic();
+    </script>
+</body>
